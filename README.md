@@ -9,7 +9,6 @@
 
 
 ## Overview
-<strong><i>Overview</i></strong>: 
 <br/><br/>
 <img src="https://github.com/lgnovo/Project-4/blob/leanne/Image.png?raw=true">
 <br/><br/>
