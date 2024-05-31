@@ -1,9 +1,9 @@
 # Project-4
 Credit Crunchers
-<a href='#overview'>Overview</a></br>
-<a href='#background-information'>Background Information</a></br>
-<a href='#presentation'>Presentation</a><br/>
-<a href='#how-to-run'>How to Run</a><br/>
+* <a href='#overview'>Overview</a></br>
+* <a href='#background-information'>Background Information</a></br>
+* <a href='#presentation'>Presentation</a><br/>
+* <a href='#how-to-run'>How to Run</a><br/>
 
 
 
