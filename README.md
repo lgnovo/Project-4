@@ -1,5 +1,5 @@
 # Project-4: Predicting Credit Customer Turnover
-Credit Crunchers
+
 * <a href='#overview'>Overview</a></br>
 * <a href='#background-information'>Background Information</a></br>
 * <a href='#presentation'>Presentation</a><br/>
@@ -13,7 +13,7 @@ Credit Crunchers
 <br/><br/>
 <img src="https://github.com/lgnovo/Project-4/blob/leanne/Image.png?raw=true">
 <br/><br/>
-<strong><i>Team Members</i></strong>: Leanne Novo, Beyonka Powell, Brian Quintero, Chuchu Wang 
+<strong><i>Team Members</i></strong>: Credit Crunchers: Leanne Novo, Beyonka Powell, Brian Quintero, Chuchu Wang 
 
 
 
