@@ -1,4 +1,4 @@
-# Project-4
+# Project-4: Predicting Credit Customer Turnover
 Credit Crunchers
 * <a href='#overview'>Overview</a></br>
 * <a href='#background-information'>Background Information</a></br>
