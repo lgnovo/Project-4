@@ -9,7 +9,6 @@
 
 
 ## Overview
-<br/><br/>
 <img src="https://github.com/lgnovo/Project-4/blob/leanne/Image.png?raw=true">
 <br/><br/>
 <strong><i>Team Members</i></strong>: Credit Crunchers: Leanne Novo, Beyonka Powell, Brian Quintero, Chuchu Wang 
