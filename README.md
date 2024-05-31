@@ -11,7 +11,7 @@
 ## Overview
 <strong><i>Overview</i></strong>: 
 <br/><br/>
-<img src="https://github.com/mshawn12/video-game-sales-analysis/blob/main/images/video_game_header.png?raw=true">
+<img src="https://github.com/lgnovo/Project-4/blob/chuchu/images/credit_score_pic.png?raw=true">
 <br/><br/>
 <strong><i>Team Members</i></strong>: Leanne Novo, Beyonka Powell, Brian Quintero, Chuchu Wang 
 
