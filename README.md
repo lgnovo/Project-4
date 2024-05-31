@@ -21,7 +21,7 @@
 The team will leverage a Global Video Game Sales & Ratings dataset from <a href="https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m">Kaggle</a> in order to test various hypotheses about video game genres as well as develop a video game recommendation engine.
 
 ## Presentation
-- View Analysis presentation <a https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p>here</a>
+[View Analysis presentation here](https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p)
 
 
 ## How to Run
