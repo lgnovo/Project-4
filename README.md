@@ -11,17 +11,17 @@
 ## Overview
 <strong><i>Overview</i></strong>: 
 <br/><br/>
-<img src="https://github.com/mshawn12/video-game-sales-analysis/blob/main/images/video_game_header.png?raw=true">
+<img src="https://github.com/lgnovo/Project-4/blob/leanne/Image.png?raw=true">
 <br/><br/>
 <strong><i>Team Members</i></strong>: Leanne Novo, Beyonka Powell, Brian Quintero, Chuchu Wang 
 
 
 
 ## Background Information
-The team will leverage a Global Video Game Sales & Ratings dataset from <a href="https://www.kaggle.com/datasets/thedevastator/global-video-game-sales-ratings">Kaggle</a> in order to test various hypotheses about video game genres as well as develop a video game recommendation engine.
+The team will leverage a Global Video Game Sales & Ratings dataset from <a href="https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m">Kaggle</a> in order to test various hypotheses about video game genres as well as develop a video game recommendation engine.
 
 ## Presentation
-- View Analysis presentation <a href="https://github.com/mshawn12/video-game-sales-analysis/blob/mydashboard/resources/group1_video_game_analysis.pdf">here</a>
+- View Analysis presentation <a https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p>here</a>
 
 
 ## How to Run
