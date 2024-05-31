@@ -9,9 +9,8 @@
 
 
 ## Overview
-<img src="https://github.com/lgnovo/Project-4/blob/leanne/Image.png?raw=true">
 <strong><i>Team Members</i></strong>: Credit Crunchers: Leanne Novo, Beyonka Powell, Brian Quintero, Chuchu Wang 
-
+<img src="https://github.com/lgnovo/Project-4/blob/leanne/Image.png?raw=true">
 
 
 ##  How do you predict customer turnover?
