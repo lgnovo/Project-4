@@ -95,7 +95,7 @@ The precision for the second train prediction (93.10%) is significantly higher t
 The recall for the second train prediction (90.41%) is higher than the first (79.17%), showing a notable improvement in capturing true positives.
 The accuracy for the second train prediction (92.06%) is slightly lower than the first (93.54%), indicating a small decrease in overall prediction correctness.
 
-# Comparison to the Second Train Prediction:
+# Comparison of Test Prediction:
 
 The precision for the second test prediction (91.02%) is slightly lower than the second train prediction (93.10%), indicating a minor increase in false positives when applied to unseen data. The F1 score for the second test prediction (89.69%) is slightly lower than the second train prediction (92.05%), suggesting a minor drop in the balance between precision and recall. The recall for the second test prediction (88.37%) is slightly lower than the second train prediction (90.41%), showing a slight decrease in capturing true positives. The accuracy for the second test prediction (89.69%) is slightly lower than the second train prediction (92.06%), indicating a minor drop in overall prediction correctness on the test data.
 
