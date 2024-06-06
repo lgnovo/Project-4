@@ -50,7 +50,7 @@ Here is the top 10 Important Features:
 <br/><img src="https://github.com/lgnovo/Project-4/blob/chuchu/images/top_10_important_features.png?raw=true"><br/>
 
 <strong><i>Key Findings</i></strong>:
-
+<br/> 
         - Total Revolving Balance: Total revolving balance is the total amount of money customers owe on revolving credit accounts, such as credit cards, at a given time. 
                 - Offering debt management programs or financial counseling to customers with high revolving balances could help reduce attrition by assisting them in managing their finances better. 
                 - For customers with low revolving balances, offer reward programs, cashbacks, or lower interest rates, this will help with increase engagement and reduce attrition. 
