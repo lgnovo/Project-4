@@ -3,7 +3,7 @@
 * <a href='#overview'>Overview</a></br>
 * <a href='#presentation'>Presentation</a><br/>
 * <a href='#random-forest-model'>Random Forest Model</a><br/>
-* <a href='#conclusion'>conclusion</a><br/>
+* <a href='#conclusion'>Conclusion</a><br/>
 
 
 
