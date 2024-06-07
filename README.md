@@ -26,9 +26,9 @@ ________________________________________________________________
 
 ## Random Forest Model
 
-1. Import findspark and initialize. Import packages. Create a SparkSession.<br/>
+**1. Import findspark and initialize.** Import packages. Create a SparkSession.<br/>
 
-2. Read in the AWS S3 bucket into a DataFrame.
+**2. Read in the AWS S3 bucket into a DataFrame.**
 ```sql
         from pyspark import SparkFiles
         url = "https://groupfourproject.s3.ca-central-1.amazonaws.com/bank_churners.csv"
@@ -38,12 +38,12 @@ ________________________________________________________________
 ```
 <br/>
 
-3. Clean data set and drop columns.<br/>
+**3. Clean data set and drop columns.** <br/>
 
-4. Look at and identify the distribution on each variables. Here is an example of the distrubution on customer age.<br/>
+**4. Look at and identify the distribution on each variables. Here is an example of the distrubution on customer age.** <br/>
 <img src="https://github.com/lgnovo/Project-4/blob/chuchu/images/example_customer_age_distribution.png?raw=true"><br/>
 
-5. Identify the Feature importances. <br/>
+**5. Identify the Feature importances.** <br/>
 We were able to identfy the top 10 importance features. Understanding which features most influence customer attrition can help align business strategies with customer needs and behaviors. For instance, if 'Months_on_book' is a top feature, it might indicate that loyalty programs or periodic check-ins with long-term customers could be beneficial. By understanding the key drivers of customer behavior, organizations can develop more targeted and proactive retention strategies.
 Here is the top 10 Important Features: 
 <br/><img src="https://github.com/lgnovo/Project-4/blob/chuchu/images/top_10_important_features.png?raw=true"><br/>
@@ -60,7 +60,7 @@ Here is the top 10 Important Features:
 
 * **Focusing on Total Revolving Balance, Average Utilization Ratio, and Credit Limit** as the top features for predicting customer attrition provides a clear path for actionable strategies. By understanding the financial health and behavior of customers, institutions can implement targeted interventions to manage and reduce attrition effectively. This data-driven approach ensures that resources are allocated efficiently, customer needs are met proactively, and overall customer loyalty is enhanced.
 
-6. Run Random Forest Model:<br/>
+**6. Run Random Forest Model:** <br/>
 We decide to run the Model with top 10 important features to look at the accuracy score. Overall Accuracy: The model has an overall accuracy of 0.88, which means it correctly classified 88% of the instances in the test set.  However, The recall for class 1 is relatively low at 0.33. This means that the model is only identifying 33% of the actual attrited customers. Therefore, we decide to conduct some improvemnt, like using top 5 features or adjust the calss weigh of the data to try to improce recall. <br/>
 ```
 Accuracy: 0.88
@@ -80,7 +80,7 @@ Confusion Matrix:
 ```
 <br/>
 
-7. Improve Model:<br/>
+**7. Improve Model:** <br/>
 The final improvement model is to resample calss weight and still use top 10 features. We were able to get 97% accurancy and improved the class 1 (Attrited Customer) F1 score to 0.99. 
 ```
 Accuracy: 0.97
@@ -100,5 +100,6 @@ Confusion Matrix:
 ```
 <br/>
 
-8. Conclusion: <br/>
+**8. Conclusion:** <br/>
 We were able to imporve Random Forest model, after balancing the classes, performs exceptionally well in predicting customer attrition. The high accuracy, precision, recall, and F1-scores across both classes demonstrate the model's robustness and reliability.<br/>
+________________________________________________________________
