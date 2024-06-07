@@ -39,7 +39,7 @@ ________________________________________________________________
 
 ## Random Forest Model
 
-After following <a href='#how-to-run'>How to Run</a><br/>,
+After following <a href='#how-to-run'>How to Run,</a><br/>
 
 **4. Look at and identify the distribution on each variables. Here is an example of the distrubution on customer age.** <br/>
 <img src="https://github.com/lgnovo/Project-4/blob/chuchu/images/example_customer_age_distribution.png?raw=true"><br/>
