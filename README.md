@@ -2,6 +2,7 @@
 
 * <a href='#overview'>Overview</a></br>
 * <a href='#presentation'>Presentation</a><br/>
+* <a href='#how-to-run'>How to Run</a><br/>
 * <a href='#random-forest-model'>Random Forest Model</a><br/>
 * <a href='#conclusion'>Conclusion</a><br/>
 
@@ -19,16 +20,13 @@ We will identify variables that best predict customer attrition by focusing on v
 
 
 ### Presentation
-Our group presentation will encompass an introduction to our model and its relevance to our research question. The goal is to present our model’s aptitude to make predictions and any hypothetical business practice recommendations.
+Our group presentation will encompass an introduction to our models and their aptitude to make predictions, and any hypothetical business practice recommendations.
 [View Presentation Here](https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p)
 
 ________________________________________________________________
-
-## Random Forest Model
-
-**1. Import findspark and initialize.** Import packages. Create a SparkSession.<br/>
-
-**2. Read in the AWS S3 bucket into a DataFrame.**
+## How to Run any of the models
+1. Import findspark and initialize. Import packages. Create a SparkSession
+2. Read in the AWS S3 bucket into a DataFrame.
 ```sql
         from pyspark import SparkFiles
         url = "https://groupfourproject.s3.ca-central-1.amazonaws.com/bank_churners.csv"
@@ -36,9 +34,12 @@ ________________________________________________________________
         df = spark.read.csv(SparkFiles.get("bank_churners.csv"), sep=",", header=True, ignoreLeadingWhiteSpace=True)
         df.show()
 ```
-<br/>
+3. Clean data set and drop columns.
+________________________________________________________________
 
-**3. Clean data set and drop columns.** <br/>
+## Random Forest Model
+
+After following <a href='#how-to-run'>How to Run</a><br/>,
 
 **4. Look at and identify the distribution on each variables. Here is an example of the distrubution on customer age.** <br/>
 <img src="https://github.com/lgnovo/Project-4/blob/chuchu/images/example_customer_age_distribution.png?raw=true"><br/>
