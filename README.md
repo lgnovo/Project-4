@@ -48,18 +48,17 @@ We were able to identfy the top 10 importance features. Understanding which feat
 Here is the top 10 Important Features: 
 <br/><img src="https://github.com/lgnovo/Project-4/blob/chuchu/images/top_10_important_features.png?raw=true"><br/>
 
-<strong><i>Key Findings</i></strong>:
-<br/> 
-* Total Revolving Balance: Total revolving balance is the total amount of money customers owe on revolving credit accounts, such as credit cards, at a given time. 
-                - Offering debt management programs or financial counseling to customers with high revolving balances could help reduce attrition by assisting them in managing their finances better. 
-                - For customers with low revolving balances, offer reward programs, cashbacks, or lower interest rates, this will help with increase engagement and reduce attrition. 
-<br/>  
-* Average Utilization Ratio: The average utilization ratio is the percentage of a customer's available credit that they are using. 
-                -  Monitoring utilization ratios and offering proactive credit line adjustments (increases or decreases) can help manage customer satisfaction and retention.
-                - Educating customers on the benefits of maintaining a healthy utilization ratio and how it affects their credit scores might help in reduce financial stress 
-<br/> 
-* Focusing on Total_Revolving_Bal, Avg_Utilization_Ratio, and Credit_Limit as the top features for predicting customer attrition provides a clear path for actionable strategies. By understanding the financial health and behavior of customers, institutions can implement targeted interventions to manage and reduce attrition effectively. This data-driven approach ensures that resources are allocated efficiently, customer needs are met proactively, and overall customer loyalty is enhanced.<br/>
-<br/> 
+**_Key Findings_**:
+
+* **Total Revolving Balance**: Total revolving balance is the total amount of money customers owe on revolving credit accounts, such as credit cards, at a given time.
+  - Offering debt management programs or financial counseling to customers with high revolving balances could help reduce attrition by assisting them in managing their finances better.
+  - For customers with low revolving balances, offering reward programs, cashbacks, or lower interest rates could increase engagement and reduce attrition.
+
+* **Average Utilization Ratio**: The average utilization ratio is the percentage of a customer's available credit that they are using.
+  - Monitoring utilization ratios and offering proactive credit line adjustments (increases or decreases) can help manage customer satisfaction and retention.
+  - Educating customers on the benefits of maintaining a healthy utilization ratio and how it affects their credit scores might help reduce financial stress.
+
+* **Focusing on Total Revolving Balance, Average Utilization Ratio, and Credit Limit** as the top features for predicting customer attrition provides a clear path for actionable strategies. By understanding the financial health and behavior of customers, institutions can implement targeted interventions to manage and reduce attrition effectively. This data-driven approach ensures that resources are allocated efficiently, customer needs are met proactively, and overall customer loyalty is enhanced.
 
 6. Run Random Forest Model:<br/>
 We decide to run the Model with top 10 important features to look at the accuracy score. Overall Accuracy: The model has an overall accuracy of 0.88, which means it correctly classified 88% of the instances in the test set.  However, The recall for class 1 is relatively low at 0.33. This means that the model is only identifying 33% of the actual attrited customers. Therefore, we decide to conduct some improvemnt, like using top 5 features or adjust the calss weigh of the data to try to improce recall. <br/>
