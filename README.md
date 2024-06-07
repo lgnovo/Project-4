@@ -50,15 +50,15 @@ Here is the top 10 Important Features:
 
 <strong><i>Key Findings</i></strong>:
 <br/> 
-        - Total Revolving Balance: Total revolving balance is the total amount of money customers owe on revolving credit accounts, such as credit cards, at a given time. 
+* Total Revolving Balance: Total revolving balance is the total amount of money customers owe on revolving credit accounts, such as credit cards, at a given time. 
                 - Offering debt management programs or financial counseling to customers with high revolving balances could help reduce attrition by assisting them in managing their finances better. 
                 - For customers with low revolving balances, offer reward programs, cashbacks, or lower interest rates, this will help with increase engagement and reduce attrition. 
 <br/>  
-        - Average Utilization Ratio: The average utilization ratio is the percentage of a customer's available credit that they are using. 
+* Average Utilization Ratio: The average utilization ratio is the percentage of a customer's available credit that they are using. 
                 -  Monitoring utilization ratios and offering proactive credit line adjustments (increases or decreases) can help manage customer satisfaction and retention.
                 - Educating customers on the benefits of maintaining a healthy utilization ratio and how it affects their credit scores might help in reduce financial stress 
 <br/> 
-        - Focusing on Total_Revolving_Bal, Avg_Utilization_Ratio, and Credit_Limit as the top features for predicting customer attrition provides a clear path for actionable strategies. By understanding the financial health and behavior of customers, institutions can implement targeted interventions to manage and reduce attrition effectively. This data-driven approach ensures that resources are allocated efficiently, customer needs are met proactively, and overall customer loyalty is enhanced.<br/>
+* Focusing on Total_Revolving_Bal, Avg_Utilization_Ratio, and Credit_Limit as the top features for predicting customer attrition provides a clear path for actionable strategies. By understanding the financial health and behavior of customers, institutions can implement targeted interventions to manage and reduce attrition effectively. This data-driven approach ensures that resources are allocated efficiently, customer needs are met proactively, and overall customer loyalty is enhanced.<br/>
 <br/> 
 
 6. Run Random Forest Model:<br/>
