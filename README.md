@@ -49,46 +49,46 @@ ________________________________________________________________
    
 **8. Training/Test 1st Model- Unbalanced**
 
-**_Training Metrics:_**
-•	Precision: 0.8034 (80.34%)
-•	F1 Score: 0.9353 (93.53%)
-•	Recall: 0.7917 (79.17%)
-•	Accuracy: 0.9354 (93.54%)
+* **_Training Metrics:_**
+-	Precision: 0.8034 (80.34%)
+-	F1 Score: 0.9353 (93.53%)
+-	Recall: 0.7917 (79.17%)
+-	Accuracy: 0.9354 (93.54%)
 
-**_Implications:_**
+- **_Implications:_**
 
 The high F1 score and accuracy indicate that the model is performing very well overall. The precision is slightly higher than the recall, suggesting that the model is somewhat more conservative in its positive predictions, prioritizing avoiding false positives over missing some true positives. The recall is also reasonably high, indicating that the model is still capturing the majority of the actual positive instances.
 
-**_Test Metrics:_**
-•	Precision: 0.7842 (78.42%)
-•	F1 Score: 0.9315 (93.15%)
-•	Recall: 0.7914 (79.14%)
-•	Accuracy: 0.9314 (93.14%)
+* **_Test Metrics:_**
+-	Precision: 0.7842 (78.42%)
+-	F1 Score: 0.9315 (93.15%)
+-	Recall: 0.7914 (79.14%)
+-	Accuracy: 0.9314 (93.14%)
 
-**_Implications:_**
+- **_Implications:_**
 
 The model demonstrates strong performance on both training and test data, with only slight decreases in precision and accuracy on the test data, which is typical and indicates good generalization.The high F1 score and consistent recall values suggest that the model is robust in identifying positive instances while maintaining a balance between precision and recall across both datasets.The slightly lower precision on the test data suggests a few more false positives compared to the training data, but this is not significantly detrimental.
 
 **9. Traning/Testing 2nd Model- Balanced**
  
-**_Training Metrics**
-•	Precision: 0.9310 (93.10%)
-•	F1 Score: 0.9205 (92.05%)
-•	Recall: 0.9041 (90.41%)
-•	Accuracy: 0.9206 (92.06%)
+* **_Training Metrics**
+-	Precision: 0.9310 (93.10%)
+-	F1 Score: 0.9205 (92.05%)
+-	Recall: 0.9041 (90.41%)
+-	Accuracy: 0.9206 (92.06%)
 
-**_Implications:_**
+- **_Implications:_**
 
 The high precision (93.10%) indicates that when the model predicts a positive instance, it is very likely to be correct, showing a strong ability to avoid false positives.The F1 score (92.05%) reflects a well-balanced model performance, effectively combining precision and recall.
 The high recall (90.41%) suggests that the model is adept at identifying the majority of true positives, with a relatively small number of false negatives. The accuracy (92.06%) indicates a high overall correctness in predictions, signifying that the model is reliable in making accurate predictions.
 
-**_Test Metrics:_**
-•	Precision: 0.9102 (91.02%)
-•	F1 Score: 0.8969 (89.69%)
-•	Recall: 0.8837 (88.37%)
-•	Accuracy: 0.8969 (89.69%)
+* **_Test Metrics:_**
+-	Precision: 0.9102 (91.02%)
+-	F1 Score: 0.8969 (89.69%)
+-	Recall: 0.8837 (88.37%)
+-	Accuracy: 0.8969 (89.69%)
 
-**_Implications:_**
+* **_Implications:_**
 
 The high precision (91.02%) indicates that when the model predicts a positive instance, it is very likely to be correct, showing a strong ability to avoid false positives even on the test data. The F1 score (89.69%) reflects a well-balanced model performance, effectively combining precision and recall, though slightly lower than the training F1 score. The high recall (88.37%) suggests that the model is adept at identifying the majority of true positives, with a relatively small number of false negatives on the test data. The accuracy (89.69%) indicates a high overall correctness in predictions, signifying that the model is reliable in making accurate predictions on new data.
 
