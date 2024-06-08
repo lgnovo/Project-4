@@ -3,8 +3,10 @@
 * <a href='#overview'>Overview</a></br>
 * <a href='#presentation'>Presentation</a><br/>
 * <a href='#how-to-run-any-of-the-models'>How to Run</a><br/>
+* <a href='#k-nearest-neighbors'>K Nearest Neighbors</a><br/>
+* <a href='#decision-tree-classifier'>Decision Tree Classifier</a><br/>
 * <a href='#random-forest-model'>Random Forest Model</a><br/>
-* <a href='#conclusion'>Conclusion</a><br/>
+* <a href='#final-conclusion'>Conclusion and Recommendations</a><br/>
 
 
 
