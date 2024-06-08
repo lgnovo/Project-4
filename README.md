@@ -36,7 +36,7 @@ ________________________________________________________________
 ```
 3. Clean data set and drop columns.
 ________________________________________________________________
-## Decision Tree Classifier
+# Decision Tree Classifier
 
 After following <a href='#how-to-run'>How to Run,</a><br/>
 
@@ -98,7 +98,7 @@ The 1st model demonstrates strong performance on both the training and test data
 The 2nd model exhibits strong performance on both the training and test datasets. The training metrics show high precision (93.10%), F1 score (92.05%), recall (90.41%), and accuracy (92.06%), indicating the model's effectiveness in making accurate predictions and identifying positive instances. The test metrics, with precision at 91.02%, F1 score at 89.69%, recall at 88.37%, and accuracy at 89.69%, confirm that the model generalizes well to new data. Despite a slight drop in performance on the test data, the metrics remain robust, highlighting the model's reliability and balanced performance.
 ________________________________________________________________
 
-## Random Forest Model
+# Random Forest Model
 
 After following <a href='#how-to-run'>How to Run,</a><br/>
 
