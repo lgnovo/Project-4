@@ -90,7 +90,7 @@ The accuracy for the second train prediction (92.06%) is slightly lower than the
 
 The precision for the second test prediction (91.02%) is slightly lower than the second train prediction (93.10%), indicating a minor increase in false positives when applied to unseen data. The F1 score for the second test prediction (89.69%) is slightly lower than the second train prediction (92.05%), suggesting a minor drop in the balance between precision and recall. The recall for the second test prediction (88.37%) is slightly lower than the second train prediction (90.41%), showing a slight decrease in capturing true positives. The accuracy for the second test prediction (89.69%) is slightly lower than the second train prediction (92.06%), indicating a minor drop in overall prediction correctness on the test data.
 
-**Conclusion**
+####Conclusion####
 The 1st model demonstrates strong performance on both the training and test datasets. With training metrics showing a precision of 80.34%, an F1 score of 93.53%, recall of 79.17%, and accuracy of 93.54%, the model is effective at making accurate and balanced predictions. The test metrics, with a precision of 78.42%, an F1 score of 93.15%, recall of 79.14%, and accuracy of 93.14%, indicate that the model generalizes well to new data with only a minor decrease in performance. This robust performance across both datasets suggests that the model is reliable and well-suited for practical applications.
 
 The 2nd model exhibits strong performance on both the training and test datasets. The training metrics show high precision (93.10%), F1 score (92.05%), recall (90.41%), and accuracy (92.06%), indicating the model's effectiveness in making accurate predictions and identifying positive instances. The test metrics, with precision at 91.02%, F1 score at 89.69%, recall at 88.37%, and accuracy at 89.69%, confirm that the model generalizes well to new data. Despite a slight drop in performance on the test data, the metrics remain robust, highlighting the model's reliability and balanced performance.
@@ -160,6 +160,6 @@ Confusion Matrix:
 ```
 <br/>
 
-**8. Conclusion:** <br/>
+#### Conclusion:#### <br/>
 We were able to imporve Random Forest model, after balancing the classes, performs exceptionally well in predicting customer attrition. The high accuracy, precision, recall, and F1-scores across both classes demonstrate the model's robustness and reliability.<br/>
 ________________________________________________________________
