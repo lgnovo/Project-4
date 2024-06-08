@@ -38,6 +38,8 @@ ________________________________________________________________
 ________________________________________________________________
 ## Decision Tree Classifier
 
+After following <a href='#how-to-run'>How to Run,</a><br/>
+
 **4. Demographic Data to Analyze using Spark SQL**
    Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer.
 
