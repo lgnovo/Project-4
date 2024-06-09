@@ -102,7 +102,7 @@ ________________________________________________________________
 # K Nearest Neighbors
 
 **4. Demographic Data to Analyze using Spark SQL**
-   Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer (from <a href='#decision-tree-classifier'>Decision Tree Classifier</a>).
+   **_Key Finding:_** Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer (from <a href='#decision-tree-classifier'>Decision Tree Classifier</a>).
 
 **5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
 
@@ -112,11 +112,11 @@ ________________________________________________________________
 
 **7. Run Pricipal Component Analysis (PCA) for balanced and unbalanced datasets**
 
-THe ideal K remains at 3. This will inform the K Nearest Neighbors analysis for K=3:
+The ideal K remains at 3. This will inform the K Nearest Neighbors analysis for K=3:
 
 **7. Run K Nearest Neighbors for balanced and unbalanced datasets**
 
-* Unbalanced:
+* **_Unbalanced:_**
 ```
 Confusion Matrix:
 [[ 268   64]
@@ -132,7 +132,7 @@ Classification Report:
    macro avg       0.82      0.87      0.84      2532
 weighted avg       0.93      0.92      0.92      2532
 ```
-* Balanced:
+* **_Balanced:.**
 ```
 Confusion Matrix:
 [[403   0]
