@@ -10,7 +10,10 @@
 
 ## Overview
 
-<img src="https://github.com/lgnovo/Project-4/blob/main/Images/readme.png?raw=true">
+<div style="text-align:center;">
+    <img src="https://github.com/lgnovo/Project-4/blob/main/Images/readme.png?raw=true" alt="Image">
+</div>
+
 
 ###  How do you predict customer turnover?
 Our group aims to develop a model that evaluates the likelihood of credit card customer turnover by analyzing data from a comprehensive consumer credit card portfolio-this includes demographic, financial, and (banking) behavioral information contained in 
