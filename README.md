@@ -116,7 +116,7 @@ THe ideal K remains at 3. This will inform the K Nearest Neighbors analysis for 
 
 **7. Run K Nearest Neighbors for balanced and unbalanced datasets**
 
-Unbalanced:
+* Unbalanced:
 ```
 Confusion Matrix:
 [[ 268   64]
@@ -132,7 +132,7 @@ Classification Report:
    macro avg       0.82      0.87      0.84      2532
 weighted avg       0.93      0.92      0.92      2532
 ```
-Balanced:
+* Balanced:
 ```
 Confusion Matrix:
 [[403   0]
