@@ -42,7 +42,7 @@ ________________________________________________________________
 After following <a href='#how-to-run'>How to Run,</a><br/>
 
 **4. Demographic Data to Analyze using Spark SQL** <br/>
-<img src="https://github.com/lgnovo/Project-4/blob/main/Images/fig%203_attrited%20dist.png?raw=true" <br/>
+<img src="https://github.com/lgnovo/Project-4/blob/main/Images/fig%203_attrited%20dist.png?raw=true"> <br/>
    Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer.
 
 **5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
