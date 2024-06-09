@@ -35,8 +35,8 @@ Our group presentation will encompass an introduction to our model and its relev
         df.show()
 ```
 3. Clean data set and drop columns.
-4. Demographic Data to Analyze using Spark SQL
-   Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer.
+  
+4. Demographic and Behavioral Data to Analyze using Spark SQL
 
 5. Maniplating Attrition_Flag to 0= Attrited Customer and 1= Existing Customer
 
@@ -45,6 +45,10 @@ Our group presentation will encompass an introduction to our model and its relev
 7. Run DecisionTreeClassifier
    
 8. Training/Test 1st Model- Unbalanced
+
+Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer.
+
+![Unbalanced](https://github.com/lgnovo/Project-4/assets/111611012/517864ac-e64d-455e-99a9-0026c51dfd9e)
 
 # Training Metrics:
 •	Precision: 0.8034 (80.34%)
@@ -67,7 +71,11 @@ The high F1 score and accuracy indicate that the model is performing very well o
 The model demonstrates strong performance on both training and test data, with only slight decreases in precision and accuracy on the test data, which is typical and indicates good generalization.The high F1 score and consistent recall values suggest that the model is robust in identifying positive instances while maintaining a balance between precision and recall across both datasets.The slightly lower precision on the test data suggests a few more false positives compared to the training data, but this is not significantly detrimental.
 
 9. Traning/Testing 2nd Model- Balanced Data
- 
+
+Balancing count of Existing Customer (1984) vs. Attrited Customer(1627) which is biased towards Existing Customer.
+
+![balanced](https://github.com/lgnovo/Project-4/assets/111611012/db497f8b-8100-47d3-98a9-3c78744c6caa)
+
 # Training Metrics:
 •	Precision: 0.9310 (93.10%)
 •	F1 Score: 0.9205 (92.05%)
