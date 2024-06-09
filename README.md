@@ -98,6 +98,17 @@ The 1st model demonstrates strong performance on both the training and test data
 
 The 2nd model exhibits strong performance on both the training and test datasets. The training metrics show high precision (93.10%), F1 score (92.05%), recall (90.41%), and accuracy (92.06%), indicating the model's effectiveness in making accurate predictions and identifying positive instances. The test metrics, with precision at 91.02%, F1 score at 89.69%, recall at 88.37%, and accuracy at 89.69%, confirm that the model generalizes well to new data. Despite a slight drop in performance on the test data, the metrics remain robust, highlighting the model's reliability and balanced performance.
 ________________________________________________________________
+# K Nearest Neighbors
+
+**4. Demographic Data to Analyze using Spark SQL**
+   Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer (from <a href='#decision-tree-classifier'>Decision Tree Classifier</a><br/>).
+
+**5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
+
+**6. Setting up Balanced and Unbalanced Train/Test Modeling** There are more existing customers than attrited customers. Unbalanced data is referring to the original cleaned dataset. 
+
+**7. Run K Nearest Neighbors**
+________________________________________________________________
 
 # Random Forest Model
 
