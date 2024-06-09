@@ -2,8 +2,8 @@
 
 * <a href='#overview'>Overview</a></br>
   - <a href='#how-to-run-any-of-the-models'>How to Run</a><br/>
-* <a href='#k-nearest-neighbors'>K Nearest Neighbors</a><br/>
 * <a href='#decision-tree-classifier'>Decision Tree Classifier</a><br/>
+* <a href='#k-nearest-neighbors'>K Nearest Neighbors</a><br/>
 * <a href='#random-forest-model'>Random Forest Model</a><br/>
 * <a href='#final-conclusion'>Conclusion and Recommendations</a><br/>
 
@@ -46,7 +46,7 @@ After following <a href='#how-to-run'>How to Run,</a><br/>
 
 **5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
 
-**6. Setting up Unbalanced Train/Test Modeling**
+**6. Setting up Unbalanced Train/Test Modeling** There are more existing customers than attrited customers. Unbalanced data is referring to the original cleaned dataset.
 
 **7. Run DecisionTreeClassifier**
    
@@ -101,13 +101,19 @@ ________________________________________________________________
 # K Nearest Neighbors
 
 **4. Demographic Data to Analyze using Spark SQL**
-   Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer (from <a href='#decision-tree-classifier'>Decision Tree Classifier</a><br/>).
+   Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer (from <a href='#decision-tree-classifier'>Decision Tree Classifier</a>).
 
 **5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
 
-**6. Setting up Balanced and Unbalanced Train/Test Modeling** There are more existing customers than attrited customers. Unbalanced data is referring to the original cleaned dataset. 
+**6. Setting up Balanced and Unbalanced Train/Test Modeling** 
 
-**7. Run K Nearest Neighbors**
+**7. Run K-Means Algorithm for balanced and unbalanced datasets**
+
+**7. Run Pricipal Component Analysis (PCA) for balanced and unbalanced datasets**
+
+THe ideal K remains at 3. This will inform the K Nearest Neighbors analysis for K=3:
+
+**7. Run K Nearest Neighbors for balanced and unbalanced datasets**
 ________________________________________________________________
 
 # Random Forest Model
