@@ -132,7 +132,7 @@ Classification Report:
    macro avg       0.82      0.87      0.84      2532
 weighted avg       0.93      0.92      0.92      2532
 ```
-* **_Balanced:.**
+* **_Balanced:_**
 ```
 Confusion Matrix:
 [[403   0]
