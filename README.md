@@ -21,7 +21,7 @@ We will identify variables that best predict customer attrition by focusing on v
 
 
 ### [Presentation](https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p)
-Our group presentation will encompass an introduction to our models and their aptitude to make predictions, and any hypothetical business practice recommendations.
+An introduction to our models and their aptitude to make predictions, and any hypothetical business practice recommendations.
 
 
 ________________________________________________________________
