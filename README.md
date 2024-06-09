@@ -19,7 +19,7 @@ We will identify variables that best predict customer attrition by focusing on v
 
 ## Github Introduction
 
-<img src="https://github.com/lgnovo/Project-4/assets/153560368/a3872152-676d-446e-b6b2-d7faed3d3c94"><br/>
+<img src="https://github.com/lgnovo/Project-4/assets/153560368/a3872152-676d-446e-b6b2-d7faed3d3c94" width="700" height="300"><br/>
 * **Analysis components** - code used to perform analyses within the project, with analyst initials.
     - **Resource:** contains the csv used for this project from <a href="https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m"> Kaggle.</a> 
 * **Images** - stores image files used for Readme
