@@ -8,21 +8,24 @@
 * <a href='#final-conclusion'>Conclusion and Recommendations</a><br/>
 
 
-
 ## Overview
 
 <img src="https://github.com/lgnovo/Project-4/blob/main/Images/readme.png?raw=true">
-
 
 ###  How do you predict customer turnover?
 Our group aims to develop a model that evaluates the likelihood of credit card customer turnover by analyzing data from a comprehensive consumer credit card portfolio-this includes demographic, financial, and (banking) behavioral information contained in 
  <a href="https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m">this dataset from Kaggle.</a> 
 We will identify variables that best predict customer attrition by focusing on variables most strongly associated with attrition flags as potential attrition predictors. The goal is to build and leverage the most relevant and effective models to craft recommendations for presentation to our hypothetical banking client (ie. increase/decrease credit limit, promotional offers, etc.) to improve client retention.
 
+## Github Introduction
+
+<img src="https://github.com/lgnovo/Project-4/assets/153560368/a3872152-676d-446e-b6b2-d7faed3d3c94">
+* **Analysis components** - code used to perform analyses within the project, with analyst initials.
+    - **Resource:** contains the csv used for this project from <a href="https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m"> Kaggle.</a> 
+* **Images** - stores image files used for Readme
 
 ### [Presentation](https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p)
 An introduction to our models and their aptitude to make predictions, and any hypothetical business practice recommendations.
-
 
 ________________________________________________________________
 ## How to Run any of the models
