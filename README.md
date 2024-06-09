@@ -43,7 +43,7 @@ After following <a href='#how-to-run'>How to Run,</a><br/>
 
 **4. Demographic Data to Analyze using Spark SQL** <br/>
 <img src="https://github.com/lgnovo/Project-4/blob/main/Images/fig%203_attrited%20dist.png?raw=true" width="600" height="320"> <br/>
-   Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer.
+   **_Key Finding:_** Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer.
 
 **5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
 
@@ -101,7 +101,7 @@ The 2nd model exhibits strong performance on both the training and test datasets
 ________________________________________________________________
 # K Nearest Neighbors
 
-**4. Demographic Data to Analyze using Spark SQL**
+**4. Demographic Data to Analyze using Spark SQL** <br/>
    **_Key Finding:_** Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer (from <a href='#decision-tree-classifier'>Decision Tree Classifier</a>).
 
 **5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
