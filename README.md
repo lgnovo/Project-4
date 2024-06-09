@@ -20,9 +20,9 @@ Our group aims to develop a model that evaluates the likelihood of credit card c
 We will identify variables that best predict customer attrition by focusing on variables most strongly associated with attrition flags as potential attrition predictors. The goal is to build and leverage the most relevant and effective models to craft recommendations for presentation to our hypothetical banking client (ie. increase/decrease credit limit, promotional offers, etc.) to improve client retention
 
 
-### Presentation
+### [Presentation](https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p)
 Our group presentation will encompass an introduction to our models and their aptitude to make predictions, and any hypothetical business practice recommendations.
-[View Presentation Here](https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p)
+
 
 ________________________________________________________________
 ## How to Run any of the models
