@@ -10,19 +10,19 @@
 
 
 ## Overview
-<strong><i>Team Members</i></strong>: Credit Crunchers: Leanne Novo, Beyonka Powell, Brian Quintero, Chuchu Wang 
+
 <img src="https://github.com/lgnovo/Project-4/blob/main/Images/readme.png?raw=true">
 
 
 ###  How do you predict customer turnover?
-Our group aims to develop a model that evaluates the likelihood of credit card customer turnover by analyzing data from a comprehensive consumer credit card portfolio-this includes demographic, financial, and (banking) behavioral information contained in the following dataset:
- <a href="https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m">Kaggle</a> 
-We will identify variables that best predict customer attrition by focusing on variables most strongly associated with attrition flags as potential attrition predictors. The goal is to build and leverage the most relevant and effective models to craft recommendations for presentation to our hypothetical banking client (ie. increase/decrease credit limit, promotional offers, etc.) to improve client retention
+Our group aims to develop a model that evaluates the likelihood of credit card customer turnover by analyzing data from a comprehensive consumer credit card portfolio-this includes demographic, financial, and (banking) behavioral information contained in 
+ <a href="https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m">this dataset from Kaggle.</a> 
+We will identify variables that best predict customer attrition by focusing on variables most strongly associated with attrition flags as potential attrition predictors. The goal is to build and leverage the most relevant and effective models to craft recommendations for presentation to our hypothetical banking client (ie. increase/decrease credit limit, promotional offers, etc.) to improve client retention.
 
 
-### Presentation
-Our group presentation will encompass an introduction to our models and their aptitude to make predictions, and any hypothetical business practice recommendations.
-[View Presentation Here](https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p)
+### [Presentation](https://docs.google.com/presentation/d/1iTG4Il5VhoeqTq4OCIaFIKuo9iCqtARKabFU-kqVb3Y/edit#slide=id.p)
+An introduction to our models and their aptitude to make predictions, and any hypothetical business practice recommendations.
+
 
 ________________________________________________________________
 ## How to Run any of the models
@@ -43,7 +43,7 @@ After following <a href='#how-to-run'>How to Run,</a><br/>
 
 **4. Demographic Data to Analyze using Spark SQL** <br/>
 <img src="https://github.com/lgnovo/Project-4/blob/main/Images/fig%203_attrited%20dist.png?raw=true" width="600" height="320"> <br/>
-   Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer.
+   **_Key Finding:_** Existing Customers (85,000) data far outweighs Attrited Customer (1,627).
 
 **5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
 
@@ -101,8 +101,8 @@ The 2nd model exhibits strong performance on both the training and test datasets
 ________________________________________________________________
 # K Nearest Neighbors
 
-**4. Demographic Data to Analyze using Spark SQL**
-   Key Finding: Higher count of Existing Customer (85000) vs. Attrited Customer(1627) which is biased towards Existing Customer (from <a href='#decision-tree-classifier'>Decision Tree Classifier</a>).
+**4. Demographic Data to Analyze using Spark SQL** <br/>
+   **_Key Finding:_** Existing Customers (85,000) data far outweighs Attrited Customer (1,627) (from <a href='#decision-tree-classifier'>Decision Tree Classifier</a>).
 
 **5. Maniplating Attrition_Flag** to 0= Attrited Customer and 1= Existing Customer
 
@@ -112,31 +112,37 @@ ________________________________________________________________
 
 **7. Run Pricipal Component Analysis (PCA) for balanced and unbalanced datasets**
 
-THe ideal K remains at 3. This will inform the K Nearest Neighbors analysis for K=3:
+The ideal K remains at 3. This will inform the K Nearest Neighbors analysis for K=3:
 
 **7. Run K Nearest Neighbors for balanced and unbalanced datasets**
 
-Unbalanced:
+* **_Unbalanced:_**
 ```
-Accuracy: 0.92
+Confusion Matrix:
+[[ 268   64]
+ [ 137 2063]]
+
 Classification Report:
               precision    recall  f1-score   support
 
-           0       0.68      0.82      0.74       333
-           1       0.97      0.94      0.96      2199
+           0       0.66      0.81      0.73       332
+           1       0.97      0.94      0.95      2200
 
     accuracy                           0.92      2532
-   macro avg       0.82      0.88      0.85      2532
-weighted avg       0.93      0.92      0.93      2532
+   macro avg       0.82      0.87      0.84      2532
+weighted avg       0.93      0.92      0.92      2532
 ```
-Balanced:
+* **_Balanced:_**
 ```
-Accuracy: 1.00
+Confusion Matrix:
+[[403   0]
+ [  2 409]]
+
 Classification Report:
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00       404
-           1       1.00      1.00      1.00       410
+           0       1.00      1.00      1.00       403
+           1       1.00      1.00      1.00       411
 
     accuracy                           1.00       814
    macro avg       1.00      1.00      1.00       814
