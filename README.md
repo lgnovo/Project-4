@@ -118,25 +118,31 @@ THe ideal K remains at 3. This will inform the K Nearest Neighbors analysis for 
 
 Unbalanced:
 ```
-Accuracy: 0.92
+Confusion Matrix:
+[[ 268   64]
+ [ 137 2063]]
+
 Classification Report:
               precision    recall  f1-score   support
 
-           0       0.68      0.82      0.74       333
-           1       0.97      0.94      0.96      2199
+           0       0.66      0.81      0.73       332
+           1       0.97      0.94      0.95      2200
 
     accuracy                           0.92      2532
-   macro avg       0.82      0.88      0.85      2532
-weighted avg       0.93      0.92      0.93      2532
+   macro avg       0.82      0.87      0.84      2532
+weighted avg       0.93      0.92      0.92      2532
 ```
 Balanced:
 ```
-Accuracy: 1.00
+Confusion Matrix:
+[[403   0]
+ [  2 409]]
+
 Classification Report:
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00       404
-           1       1.00      1.00      1.00       410
+           0       1.00      1.00      1.00       403
+           1       1.00      1.00      1.00       411
 
     accuracy                           1.00       814
    macro avg       1.00      1.00      1.00       814
