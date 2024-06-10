@@ -154,6 +154,8 @@ Classification Report:
    macro avg       1.00      1.00      1.00       814
 weighted avg       1.00      1.00      1.00       814
 ```
+### Conclusion: <br/>
+A perfect prediction by the balanced K Nearest Neighbors algorithm is unlikely despite the confusion matrix numbers. We will not be moving forward with this analysis and further refinement of this model is necessary to use this reliably to make predictions about groups of customers and their likelihood to churn.
 ________________________________________________________________
 
 # Random Forest Model
@@ -201,7 +203,7 @@ Confusion Matrix:
 <br/>
 
 **7. Improve Model:** <br/>
-The final improvement model is to resample calss weight and still use top 10 features. We were able to get 97% accurancy and improved the class 1 (Attrited Customer) F1 score to 0.99. 
+The final improvement model is to resample class weight and still use top 10 features. We were able to get 97% accurancy and improved the class 1 (Attrited Customer) F1 score to 0.99. 
 ```
 Accuracy: 0.97
 Classification Report:
