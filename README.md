@@ -5,7 +5,7 @@
 * <a href='#decision-tree-classifier'>Decision Tree Classifier</a><br/>
 * <a href='#k-nearest-neighbors'>K Nearest Neighbors</a><br/>
 * <a href='#random-forest-model'>Random Forest Model</a><br/>
-* <a href='#final-conclusion'>Conclusion and Recommendations</a><br/>
+* <a href='#conclusion-and-recommendations'>Conclusion and Recommendations</a><br/>
 
 
 ## Overview
@@ -223,3 +223,5 @@ Confusion Matrix:
 ### Conclusion: <br/>
 We were able to imporve Random Forest model, after balancing the classes, performs exceptionally well in predicting customer attrition. The high accuracy, precision, recall, and F1-scores across both classes demonstrate the model's robustness and reliability.<br/>
 ________________________________________________________________
+
+#Conclusion and Recommendations
