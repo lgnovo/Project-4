@@ -224,4 +224,5 @@ Confusion Matrix:
 We were able to imporve Random Forest model, after balancing the classes, performs exceptionally well in predicting customer attrition. The high accuracy, precision, recall, and F1-scores across both classes demonstrate the model's robustness and reliability.<br/>
 ________________________________________________________________
 
-#Conclusion and Recommendations
+# Conclusion and Recommendations
+Insert conclustion stuff here
