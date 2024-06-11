@@ -241,4 +241,6 @@ After balancing and improving the model, false positives increased from 20 to 11
 We are confident in our focus on False negatives because the recall for attrited customers is at 99%. This indicates that the model can identify almost all potential cases of attrition. Additionally, the overall accuracy for the model indicates a robust 97%.
 
 Following our prediction model ensures a more targeted strategy that will help prevent customer churn, retain customer loyalty, and eventually help to expand into new markets.
+________________________________________________________________
 
+** _All work for our group project was planned and tracked by strictly adhering to the Trello project management software_ **
