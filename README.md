@@ -243,4 +243,4 @@ We are confident in our focus on False negatives because the recall for attrited
 Following our prediction model ensures a more targeted strategy that will help prevent customer churn, retain customer loyalty, and eventually help to expand into new markets.
 ________________________________________________________________
 
-** _All work for our group project was planned and tracked by strictly adhering to the Trello project management software_ **
+** _All work for our group project was planned and tracked by strictly adhering to the Trello project management software. It can be found here:_ <a href="https://trello.com/b/OBm2YWMR/project4">here</a> **
