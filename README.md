@@ -14,6 +14,13 @@
     <img src="https://github.com/lgnovo/Project-4/blob/main/Images/readme.png?raw=true" alt="Image">
 </div>
 
+Have you ever received a letter or an email from your bank offering you promotions on credit card services? Maybe they’re offering you a new cashback program, 0% APR for 15 months. Or maybe they’ve increased your credit limit because you’re a good customer. 
+
+Why do you think your bank does this? How do you think your bank decides which customers to reach out to? Is it every customer that receives an offer, or only select individuals? 
+
+Our team, the Credit Crunchers will answer this question on behalf of a concerned bank management team. 
+
+The bank’s board and upper management are seeking to retain customers since competition has increased. Our goal is to create a machine learning model that can accurately predict any customers that are at risk of leaving the bank’s services.
 
 ###  How do you predict customer turnover?
 Our group aims to develop a model that evaluates the likelihood of credit card customer turnover by analyzing data from a comprehensive consumer credit card portfolio-this includes demographic, financial, and (banking) behavioral information contained in 
@@ -227,4 +234,10 @@ We were able to imporve Random Forest model, after balancing the classes, perfor
 ________________________________________________________________
 
 # Conclusion and Recommendations
-Insert conclustion stuff here
+After analyzing the three models, we believe that the Random Forest model is the most balanced and reliable for our credit card customer churn analysis. We see strong performance across all metrics in the classification report. Additionally, the results from the comparison of the initial and final confusion matrices support our findings, especially in the changes for the false positive and false negative numbers. 
+
+After balancing and improving the model, false positives increased from 20 to 115. This means that the improved model is incorrectly identifying more loyal customers as customers at risk of attrition. However, our focus is on the false negatives which decreased from 330 to 25. This means that the improved model now substantially reduced the number of potential attrited customers
+We are confident in our focus on False negatives because the recall for attrited customers is at 99%. This indicates that the model can identify almost all potential cases of attrition. Additionally, the overall accuracy for the model indicates a robust 97%.
+
+Following our prediction model ensures a more targeted strategy that will help prevent customer churn, retain customer loyalty, and eventually help to expand into new markets.
+
