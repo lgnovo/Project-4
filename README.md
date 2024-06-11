@@ -14,6 +14,7 @@
     <img src="https://github.com/lgnovo/Project-4/blob/main/Images/readme.png?raw=true" alt="Image">
 </div>
 
+
 Have you ever received a letter or an email from your bank offering you promotions on credit card services? Maybe they’re offering you a new cashback program, 0% APR for 15 months. Or maybe they’ve increased your credit limit because you’re a good customer. 
 
 Why do you think your bank does this? How do you think your bank decides which customers to reach out to? Is it every customer that receives an offer, or only select individuals? 
